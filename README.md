@@ -3,7 +3,7 @@
 Just a simple boilerpate with minimal dependencies as possible
 
 ## Dev Dependencies
-### Babel 
+### Babel (Required)
 These preset files are needed to allow us to use `JSX` syntax and `es6`  
 
 ```
@@ -25,6 +25,24 @@ For the workflow automation. Since `Gulp 4` now uses es6, it needs the `babel-re
 ```
 gulp
 babel-register
+```
+
+### Webpack (Alternative to Browserify)
+I added it here so you can have the option if you prefer Webpack over Browserify. The style loader is optional if you are not importing your css files inside javascript.
+
+```
+webpack
+babel-loader
+style-loader
+```
+
+### .babelrc
+
+This is the configuration file that Webpack/Gulp uses. This is the most minimal settings.
+```
+{
+    "presets": ["es2015", "react"]
+}
 ```
 
 ### BrowserSync (Totally optional). 
