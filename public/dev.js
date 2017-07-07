@@ -21208,7 +21208,7 @@ var App = function (_Component) {
           _react2.default.createElement(
             "h2",
             null,
-            "Welcome to React"
+            "Welcome sure  React"
           )
         ),
         _react2.default.createElement(
@@ -21254,7 +21254,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // import './index.css';
 _reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById('root'));
-(0, _registerServiceWorker2.default)();
+// registerServiceWorker();
 
 },{"./App":184,"./registerServiceWorker":186,"react":183,"react-dom":31}],186:[function(require,module,exports){
 (function (process){
