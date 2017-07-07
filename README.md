@@ -28,7 +28,7 @@ babel-register
 ```
 
 ### Webpack (Alternative to Browserify)
-I added it here so you can have the option if you prefer `Webpack` over `Browserify`. The style loader is optional if you are not importing your css files inside javascript.
+I added it here so you can have the option if you prefer `Webpack` over `Browserify`. The `style-loader` is optional if you are not importing your css files inside javascript.
 
 ```
 webpack
