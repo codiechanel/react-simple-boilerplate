@@ -44,15 +44,18 @@ function scripts(done) {
 
 const watch = () => gulp.watch(paths.scripts.src, gulp.series(scripts, reload));
 
-function styles() {
-  console.log("cool");
-  return "success";
-}
+// export function styles() {
+//   console.log("cool");
+//   return "success";
+// }
 
-exports.styles = styles;
+const browser = gulp.series(serve, watch);
+export { browser }
 
-const build = gulp.series(serve, watch);
-export { build };
+
+
+const build = gulp.series(scripts);
+export { build }
 
 /*
  * Export a default task
