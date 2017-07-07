@@ -21,6 +21,6 @@ For the workflow automation. Since Gulp 4 now uses es6, it needs the babel-regis
 babel-register`
 
 ### BrowserSync (Totally optional). 
-This module refreshed the browser for us when it detects our changes.
+This module will refresh the browser for us when it detects our code changes.
 
 `browser-sync`
