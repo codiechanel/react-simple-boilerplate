@@ -36,7 +36,7 @@ babel-loader
 style-loader
 ```
 
-* Should you choose Webpack, you can simply remove the dependencies for Gulp and Browserify. *
+*Should you choose Webpack, you can simply remove the dependencies for Gulp and Browserify.*
 
 ### .babelrc
 
