@@ -7,6 +7,7 @@ Just a simple boilerpate with minimal dependencies as possible
 These preset files are needed to allow us to use JSX syntax and es6  
 
 `babel-preset-react
+
 babel-preset-es2015`
 
 ### Browserify
