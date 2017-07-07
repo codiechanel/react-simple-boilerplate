@@ -12,7 +12,7 @@ babel-preset-es2015
 ```
 
 ### Browserify
-This allows us to use `module imports` and it uses `babelify` to make the actual javascript code conversion. 
+This allows us to use `module imports` and it uses `babelify` to make the actual javascript code conversion (transpile). 
 
 ```
 browserify
