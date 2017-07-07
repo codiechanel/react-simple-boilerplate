@@ -36,6 +36,8 @@ babel-loader
 style-loader
 ```
 
+* Should you choose Webpack, you can simply remove the dependencies for Gulp and Browserify. *
+
 ### .babelrc
 
 This is the configuration file that `Webpack/Gulp` uses. This is the most minimal settings.
