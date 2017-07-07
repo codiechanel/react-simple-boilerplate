@@ -12,7 +12,7 @@ babel-preset-es2015
 ```
 
 ### Browserify
-This allows us to use `module imports` and and it needs `babelify` to make the actual javascript code conversion. 
+This allows us to use `module imports` and it uses `babelify` to make the actual javascript code conversion. 
 
 ```
 browserify
@@ -28,7 +28,7 @@ babel-register
 ```
 
 ### Webpack (Alternative to Browserify)
-I added it here so you can have the option if you prefer Webpack over Browserify. The style loader is optional if you are not importing your css files inside javascript.
+I added it here so you can have the option if you prefer `Webpack` over `Browserify`. The style loader is optional if you are not importing your css files inside javascript.
 
 ```
 webpack
@@ -38,7 +38,7 @@ style-loader
 
 ### .babelrc
 
-This is the configuration file that Webpack/Gulp uses. This is the most minimal settings.
+This is the configuration file that `Webpack/Gulp` uses. This is the most minimal settings.
 ```
 {
     "presets": ["es2015", "react"]
