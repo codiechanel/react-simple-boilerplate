@@ -6,9 +6,8 @@ Just a simple boilerpate with minimal dependencies as possible
 ### Babel 
 These preset files are needed to allow us to use JSX syntax and es6  
 
-`babel-preset-react
-
-babel-preset-es2015`
+`babel-preset-react`
+`babel-preset-es2015`
 
 ### Browserify
 This allows us to use module imports and babelify to make the actual javascript code conversion. 
