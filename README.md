@@ -17,6 +17,7 @@ babelify`
 
 ### Gulp
 For the workflow automation. Since Gulp 4 now uses es6, it needs the babel-register module.
+
 `gulp
 babel-register`
 
