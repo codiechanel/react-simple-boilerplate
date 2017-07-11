@@ -42,6 +42,25 @@ function scripts(done) {
 //   done();
 }
 
+
+var watcher = gulp.watch(paths.scripts.src, gulp.series(scripts))
+watcher.on('change', function(path, stats) {
+  console.log('File ' + path + ' was changed');
+});
+
+watcher.on('unlink', function(path) {
+  console.log('File ' + path + ' was removed');
+})
+
+const watchy = () => watcher
+
+const watchDemo = gulp.series(scripts,watchy);
+export { watchDemo }
+
+// export { watcher }
+
+
+
 const watch = () => gulp.watch(paths.scripts.src, gulp.series(scripts, reload));
 
 // export function styles() {
