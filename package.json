@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browserify src/index.js -o public/dev.js -t [ babelify --presets [ es2015 react ] ]",
-    "sync": "browser-sync start --server --files './public/*'",
+    "sync": "cd public && browser-sync start --server --files '*'",
+    "sync2": "cd public && browser-sync start --server --files ''",
     "pack": "webpack -d --progress --colors --watch"
   },
   "repository": {
@@ -32,5 +33,7 @@
     "style-loader": "^0.18.2",
     "webpack": "^3.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-ssh": "^0.6.0"
+  }
 }
